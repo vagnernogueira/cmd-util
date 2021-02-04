@@ -5,8 +5,20 @@
 	<artifactId>cmd-util</artifactId>
 	<version>1.0.0</version>
 	<name>cmd-util</name>
+	
+	<organization>
+		<name>Vagner Nogueira</name>
+		<url>vagnernogueira.com.br</url>
+	</organization>
+
+	<scm>
+		<url>https://github.com/vagnernogueira/cmd-util</url>
+		<connection>git@github.com:vagnernogueira/cmd-util.git</connection>
+	</scm>
 
 	<properties>
+		<build.timestamp>${maven.build.timestamp}</build.timestamp>
+		<maven.build.timestamp.format>dd/MM/yyyy HH:mm</maven.build.timestamp.format>
 		<project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
